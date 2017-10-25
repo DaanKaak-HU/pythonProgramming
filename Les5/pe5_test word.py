@@ -7,4 +7,4 @@ def test_a_word(word):
     else:
         return False
 
-print(test_a_word('reee'))
+print(test_a_word('reeea'))
