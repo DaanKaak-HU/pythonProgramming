@@ -1,6 +1,5 @@
-trajecten = {'bruin', 'groen'}
-traject_bruin = {'Boxtel', 'Best', 'Beukenlaan', 'Eindhoven', 'Helmond \'t Hout', 'Helmond', 'Helmond Brouwhuis', 'Deurne'}
-traject_groen = {'Boxtel', 'Best', 'Beukenlaan', 'Eindhoven', 'Geldrop', 'Heeze', 'Weert'}
-print(traject_groen & traject_bruin)
-print(traject_bruin ^ traject_groen)
-print(traject_bruin | traject_groen)
+groene_lijn = set(['Boxtel', 24, 'Beukenlaan', 'Eindhoven', 'Geldrop', 'Heeze', 25, 'Weert'])
+bruine_lijn = set(['Boxtel', 'Best', 27, 'Eindhoven', "Helmond 't Hout", 'Helmond', 'Helmond Brouwhuis', 'Deurne'])
+print(groene_lijn.intersection(bruine_lijn))
+print(bruine_lijn.difference(groene_lijn))
+print(groene_lijn.union(bruine_lijn))

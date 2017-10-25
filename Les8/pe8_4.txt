@@ -1,0 +1,6 @@
+#                 geordend  muteerbaar  iterable  dubbele waarden toegestaan
+#
+# tuple           ja        nee         ja        ja
+# dictionary      ja        ja          ja        nee
+# set             nee       nee         ja        ja
+# list            ja        ja          ja        ja
